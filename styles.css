@@ -1,0 +1,66 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    font-size: 42px;
+    font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.calcBody {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    box-shadow: 4px 6px #444;
+    border: 1px silver solid;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.output {
+    background-color: #DED;
+    text-align: end;
+    padding: 16px;
+    cursor: default;
+    border-radius: 5px;
+    border: 1px #CDC solid;
+    box-shadow: -2px -2px #BCB;
+    height: 1em;
+}
+
+.row {
+    display: flex;
+    gap: 24px;
+}
+
+.button {
+    padding: 16px;
+    border: 1px #999 solid;
+    box-shadow: 2px 4px darkgoldenrod;
+    background-color:lightgray;
+    cursor: pointer;
+    border-radius: 3px;
+    flex: 1;
+    min-width: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.neg {
+    font-size: 24px;
+}
+
+.selected {
+    border: 3px #EEE solid;
+    padding: 14px;
+}
