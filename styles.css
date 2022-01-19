@@ -33,6 +33,7 @@ body, html {
     border: 1px #CDC solid;
     box-shadow: -2px -2px #BCB;
     height: 1em;
+    min-width: 11em;
 }
 
 .row {
@@ -64,3 +65,15 @@ body, html {
     border: 3px #EEE solid;
     padding: 14px;
 }
+
+
+/* Disables the ability to select, makes pushing buttons cleaner */
+.noselect, .button, .output {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
